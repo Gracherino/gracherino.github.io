@@ -1,0 +1,112 @@
+.products {
+    min-height: 1158px;
+    @keyframes anim_car8 {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    .products__content {
+        display: none;
+    }
+    .products__content-active {
+        display: flex;
+        animation: anim_car8 linear 1s;
+    }
+    .hr {
+        height: 2px;
+        background-color: #ececec;
+        margin-bottom: 106px;
+    }
+    text-align: center;
+    &__title {
+        text-transform: uppercase;
+        font-size: 41.5px;
+        font-weight: bold;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    &__descr {
+        margin: 0 auto;
+        width: 504px;
+        font-size: 16.5px;
+        line-height: 1.73;
+        letter-spacing: normal;
+        color: rgba(0, 0, 0, 0.7);
+        margin-bottom: 29px;
+    }
+    .hr_second {
+        width: 132px;
+        height: 3px;
+        background-color: #ff2d2d;
+        margin: 0 auto;
+        margin-bottom: 88px;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        a {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 1.09;
+            letter-spacing: 0.22px;
+            color: rgba(0, 0, 0, 0.7);
+            transition: 0.5s all;
+            &:hover {
+                text-decoration: none;
+                color: #ff2d2d;
+            }
+        }
+    }
+    &__tabs {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.09;
+        letter-spacing: 0.22px;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    &__tab {
+        transition: 0.5s all;
+        &:hover {
+            cursor: pointer;
+            text-decoration: none;
+            color: #ff2d2d;
+        }
+    }
+    .products__tab_active {
+        text-decoration: none;
+        color: #ff2d2d;
+    }
+    &__items {
+        margin-top: 45px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .products__item:nth-child(1) {
+            margin-left: 0;
+        }
+        .products__item:nth-child(5) {
+            margin-left: 0;
+        }
+    }
+    &__item {
+        // width: 297.7px;
+        // height: 290.2px;
+        margin-left: 12px;
+        margin-top: 19px;
+        img {
+            width: 277.7px;
+            height: 290.2px;
+        }
+    }
+}

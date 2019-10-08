@@ -1,0 +1,52 @@
+.preview {
+    padding: 114px 0 107px 0;
+    max-width: 100%;
+    background-color: #ffffff;
+    &__title {
+        text-transform: uppercase;
+        font-size: 42px;
+        font-weight: bold;
+        line-height: 1.3;
+        letter-spacing: 0.42px;
+        text-align: left;
+        color: rgb(0, 0, 0);
+        margin-bottom: 50px;
+    }
+    &__descr {
+        width: 509px;
+        font-size: 16px;
+        line-height: 1.75;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 53px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__right_block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 103px;
+    }
+    &__item {
+        width: 271px;
+    }
+    .right__title {
+        margin-top: 20px;
+        margin-bottom: 17px;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.24px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    .right__descr {
+        font-size: 16px;
+        letter-spacing: normal;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.7);
+        margin-bottom: 40px;
+    }
+}
