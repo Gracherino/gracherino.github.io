@@ -1,0 +1,14 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/animate";
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/preview";
+@import "blocks/products";
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
